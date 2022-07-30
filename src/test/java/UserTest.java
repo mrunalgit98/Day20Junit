@@ -7,7 +7,7 @@ public class UserTest {
     User m=new User();
     @Test
     public void Test() {
-        boolean result =m.Rule1("abcdefghijkl");
+        boolean result =m.Rule2("Abcdefghijkl");
         assertEquals(result,true);
 
     }
