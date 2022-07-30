@@ -7,7 +7,7 @@ public class UserTest {
     User m=new User();
     @Test
     public void Test() {
-        boolean result =m.email("abc.xyz@bl.co.in");
+        boolean result =m.MobileNo("91-9892820222");
         assertEquals(result,true);
 
     }
