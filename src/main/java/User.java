@@ -2,8 +2,8 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class User{
-    public boolean MobileNo(String str) {
-        String regex="(91-)[0-9]{10}$";
+    public boolean Rule1(String str) {
+        String regex="[a-zA-Z0-9!@#$]{8}";
         Pattern p=Pattern.compile(regex);
         Matcher mat=p.matcher(str);
         boolean result=mat.find();
